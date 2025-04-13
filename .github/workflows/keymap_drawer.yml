@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "main**"
+      - "**main"
     paths:
       - ".github/workflows/keymap_draser.yml"
       - "keymap_drawer.config.yaml"
