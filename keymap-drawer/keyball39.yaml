@@ -31,15 +31,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: SCRL, s: '?'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: NUM_MSE}
   - {t: '$$mdi:keyboard-return$$', h: SYM_SCRL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   NUM_MSE:
   - '1'
   - '2'
@@ -256,7 +256,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PG UP
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -266,7 +266,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,7 +343,10 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [20, 21]
   k: $$mdi:backspace-reverse-outline$$
+  l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
 - p: [29, 28]
   k: $$mdi:backspace-reverse-outline$$
+  l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
