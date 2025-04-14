@@ -3,7 +3,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -69,11 +68,13 @@
         del_l {
             bindings = <&kp DELETE>;
             key-positions = <20 21>;
+            layers = <0 1 2 4 6 7>;
         };
 
         del_r {
             bindings = <&kp DELETE>;
             key-positions = <29 28>;
+            layers = <0 1 2 4 6 7>;
         };
 
         backspace {
@@ -178,10 +179,10 @@
 
         auto_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans                  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans                  &kp PG_UP  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4
+&trans  &trans  &trans  &trans  &trans                  &kp PG_DN  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans
             >;
 
             label = "MSE";
