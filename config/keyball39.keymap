@@ -63,6 +63,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
+            layers = <0 1 2 3 4 6 7>;
         };
 
         del_l {
