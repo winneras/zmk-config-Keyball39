@@ -341,6 +341,7 @@ combos:
   l: [QWRT_HRM]
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+  l: [QWRT_HRM, NUM_MSE, SYM_SCRL, FUN, NUM, MSE, SCRL]
 - p: [20, 21]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
