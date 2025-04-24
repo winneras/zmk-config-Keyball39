@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - Z
   - X
   - C
@@ -100,7 +100,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '`', s: '~'}
-  - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - $$mdi:arrow-down-bold$$
@@ -110,7 +110,7 @@ layers:
   - _
   - +
   - '~'
-  - '"'
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -225,20 +225,20 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   MSE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -348,6 +348,6 @@ combos:
 - p: [29, 28]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
-- p: [9, 8]
+- p: [37, 16]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
