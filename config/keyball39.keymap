@@ -80,7 +80,7 @@
         };
 
         toggle-hrm {
-            bindings = <&tog 0>;
+            bindings = <&tog 8>;
             key-positions = <33 34 35>;
         };
     };
