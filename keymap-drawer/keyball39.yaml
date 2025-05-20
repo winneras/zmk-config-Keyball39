@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYM_SCRL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   NUM_MSE:
   - '1'
   - '2'
@@ -187,9 +187,9 @@ layers:
   - KP SLASH
   - KP DOT
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -321,22 +321,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [3, 4]
+- p: [13, 14]
   k: (
   l: [QWRT_HRM]
-- p: [5, 6]
+- p: [15, 16]
   k: )
   l: [QWRT_HRM]
-- p: [23, 24]
+- p: [3, 4]
   k: {t: '[', s: '{'}
   l: [QWRT_HRM]
-- p: [25, 26]
+- p: [5, 6]
   k: {t: ']', s: '}'}
   l: [QWRT_HRM]
-- p: [13, 14]
+- p: [23, 24]
   k: '{'
   l: [QWRT_HRM]
-- p: [15, 16]
+- p: [26, 25]
   k: '}'
   l: [QWRT_HRM]
 - p: [0, 1]
@@ -347,7 +347,4 @@ combos:
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
 - p: [29, 28]
   k: $$mdi:backspace-reverse-outline$$
-  l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
-- p: [37, 16]
-  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
