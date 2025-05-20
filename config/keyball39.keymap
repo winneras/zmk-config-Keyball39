@@ -27,37 +27,37 @@
 
         par_l {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <3 4>;
+            key-positions = <13 14>;
             layers = <0>;
         };
 
         par_r {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <5 6>;
+            key-positions = <15 16>;
             layers = <0>;
         };
 
         bkt_l {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <23 24>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
         bkt_r {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <25 26>;
+            key-positions = <5 6>;
             layers = <0>;
         };
 
         brc_l {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <13 14>;
+            key-positions = <23 24>;
             layers = <0>;
         };
 
         brc_r {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <15 16>;
+            key-positions = <26 25>;
             layers = <0>;
         };
 
@@ -76,12 +76,6 @@
         del_r {
             bindings = <&kp DELETE>;
             key-positions = <29 28>;
-            layers = <0 1 2 4 6 7>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <37 16>;
             layers = <0 1 2 4 6 7>;
         };
     };
@@ -125,7 +119,7 @@
 &kp Q                &kp W            &kp E             &kp R              &kp T                                  &kp Y        &kp U               &kp I             &kp O             &kp P
 &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D   &hml LEFT_SHIFT F  &kp G                                  &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SQT
 &kp Z                &kp X            &kp C             &kp V              &kp B                                  &kp N        &kp M               &kp COMMA         &kp DOT           &lt 7 SLASH
-&kp LEFT_SHIFT       &kp LEFT_ALT     &kp LEFT_CONTROL  &mt LEFT_GUI TAB   &lt 1 SPACE  &lt 2 ENTER  &lt 3 ENTER  &lt 4 SPACE                                                          &mt LEFT_SHIFT BACKSPACE
+&kp LEFT_SHIFT       &kp LEFT_ALT     &kp LEFT_CONTROL  &mt LEFT_GUI TAB   &lt 1 SPACE  &lt 2 ENTER  &lt 3 ENTER  &lt 4 SPACE                                                          &kp LEFT_SHIFT
             >;
         };
 
@@ -162,10 +156,10 @@
         number {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                  &kp PG_UP     &kp LEFT      &kp UP        &kp RIGHT     &kp HOME
-&kp KP_PLUS   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_DOT                    &kp PG_DN     &trans        &kp DOWN      &trans        &kp END
-&trans        &trans        &trans           &trans        &trans        &trans  &trans  &trans                                                  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                  &kp PG_UP     &kp LEFT       &kp UP        &kp RIGHT     &kp HOME
+&kp KP_PLUS   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_DOT                    &kp PG_DN     &kp BACKSPACE  &kp DOWN      &kp DOT       &kp END
+&trans        &trans        &trans           &trans        &trans        &trans  &trans  &trans                                                   &trans
             >;
         };
 
