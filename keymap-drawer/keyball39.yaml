@@ -320,6 +320,46 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  QWRT:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: '''', s: '"'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-space$$', h: NUM_MSE}
+  - {t: '$$mdi:keyboard-return$$', h: SYM_SCRL}
+  - {t: '$$mdi:keyboard-return$$', h: FUN}
+  - {t: '$$mdi:keyboard-space$$', h: NUM}
+  - $$mdi:apple-keyboard-shift$$
 combos:
 - p: [13, 14]
   k: (
@@ -348,3 +388,5 @@ combos:
 - p: [29, 28]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWRT_HRM, NUM_MSE, SYM_SCRL, NUM, MSE, SCRL]
+- p: [33, 34, 35]
+  k: {t: QWRT, h: toggle}
